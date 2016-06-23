@@ -1,4 +1,4 @@
-# typed-mapbox-gl  [![Build Status](https://travis-ci.org/dobrud/typed-mapbox-gl.png?branch=master)](https://travis-ci.org/dobrud/typed-mapbox-gl)
+# mapboxgl-typings
 Type definitions for Mapbox GL JS
 
 ## How to use
