@@ -1,0 +1,21 @@
+{
+  "name": "mapboxgl-typings",
+  "version": "1.0.0",
+  "description": "Type definitions for Mapbox GL JS",
+  "scripts": {
+    "test": "./node_modules/.bin/typings install && ./node_modules/.bin/tsc mapbox-gl-tests.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbu-kakashi/mapboxgl-typings.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anbu-kakashi/mapboxgl-typings/issues"
+  },
+  "homepage": "https://github.com/anbu-kakashi/mapboxgl-typings",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
