@@ -5,7 +5,7 @@ Type definitions for Mapbox GL JS
 ``` shell
 npm install mapbox-gl --save
 typings install dt~geojson --global --save
-typings install github:dobrud/typed-mapbox-gl --global --save
+typings install github:anbu-kakashi/mapboxgl-typings --global --save
 ```
 Usage in code:
 ``` typescript
