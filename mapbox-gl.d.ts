@@ -9,7 +9,7 @@ declare namespace mapboxgl {
 	export class Map extends Evented {
 		constructor(options?: MapboxOptions);
 
-		addControl(control?: Control |  Navigation): mapboxgl.Map;
+		addControl(control?: Control |  NavigationControl): mapboxgl.Map;
 
 		addClass(klass: string, options?: mapboxgl.StyleOptions): mapboxgl.Map;
 
