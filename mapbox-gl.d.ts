@@ -180,9 +180,9 @@ declare namespace mapboxgl {
 	 * Control
 	 */
 	export class Control {
-		addTo(map: mapboxgl.Map): mapboxgl.Control | mapboxgl.Navigation;
+		addTo(map: mapboxgl.Map): mapboxgl.Control | mapboxgl.NavigationControl;
 
-		remove(): mapboxgl.Control | mapboxgl.Navigation;
+		remove(): mapboxgl.Control | mapboxgl.NavigationControl;
 	}
 
 	/**
@@ -296,7 +296,7 @@ declare namespace mapboxgl {
 	/**
 	 * Navigation
 	 */
-	export class Navigation {
+	export class NavigationControl {
 		constructor(options?: mapboxgl.ControlOptions);
 	}
 
